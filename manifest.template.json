@@ -1,0 +1,58 @@
+{
+  "manifest_version": 2,
+  "name": "NamTheme",
+  "version": "1.0.0",
+  "description": "Waw pretty :)",
+  "author": "TheNamlessGuy",
+  "homepage_url": "https://github.com/TheNamlessGuy/NamTheme",
+  "developer": {
+    "name": "TheNamlessGuy",
+    "url": "https://github.com/TheNamlessGuy/NamTheme"
+  },
+
+  "theme": {
+    "properties": {
+      "color_scheme": "dark"
+    },
+
+    "colors": {
+      "frame": "--blackish",
+
+      "toolbar": "--faded-purple",
+      "toolbar_text": "--light-pink",
+
+      "tab_line": "--light-pink",
+      "tab_background_text": "--faded-white",
+      "tab_text": "--white",
+      "tab_loading": "--light-pink",
+
+      "toolbar_field": "--dark-purple",
+      "toolbar_field_border": "--dark-purple",
+      "toolbar_field_border_focus": "--light-pink",
+      "toolbar_field_text": "--purple",
+      "toolbar_field_highlight": "--purple-pink@0.3",
+      "toolbar_bottom_separator": "--dark-purple",
+      "toolbar_top_separator": "--dark-purple",
+      "toolbar_vertical_separator": "--dark-purple",
+
+      "popup": "--dark-purple",
+      "popup_text": "--light-pink",
+      "popup_border": "--light-pink",
+      "popup_highlight": "--purple-pink",
+      "popup_highlight_text": "--bright-purple",
+
+      "icons_attention": "--red",
+
+      "sidebar": "--faded-purple",
+      "sidebar_border": "--dark-purple",
+      "sidebar_text": "--white",
+      "sidebar_highlight": "--purple-pink"
+    }
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "NamTheme@TheNamlessGuy.github.io"
+    }
+  }
+}
