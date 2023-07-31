@@ -1,0 +1,2 @@
+# NamTheme
+A Firefox theme
