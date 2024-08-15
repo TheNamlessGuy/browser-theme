@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "NamTheme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Waw pretty :)",
   "author": "TheNamlessGuy",
   "homepage_url": "https://github.com/TheNamlessGuy/NamTheme",
@@ -29,7 +29,7 @@
       "toolbar_field": "--dark-purple",
       "toolbar_field_border": "--dark-purple",
       "toolbar_field_border_focus": "--light-pink",
-      "toolbar_field_text": "--purple",
+      "toolbar_field_text": "--white",
       "toolbar_field_highlight": "--purple-pink@0.3",
       "toolbar_bottom_separator": "--dark-purple",
       "toolbar_top_separator": "--dark-purple",

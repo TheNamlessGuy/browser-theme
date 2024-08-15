@@ -37,6 +37,9 @@ for key in data['theme']['colors']:
       value = value.replace('rgb(', 'rgba(').replace(')', ', {0})'.format(alpha))
 
     data['theme']['colors'][key] = value
+  else:
+    print("Could not find value '{0}' (key: '{1}')".format(value, key))
+    exit(1)
 
 with open('./manifest.json', 'w') as f:
   f.write(json.dumps(data))
