@@ -13,3 +13,6 @@ The link is [here](https://addons.mozilla.org/firefox/addon/namtheme/).
 
 ## How to edit
 In order to make it easier (for me, at least) to edit, I made it so you edit `manifest.template.json` and then run the `generate.py` script in order to generate the `manifest.json` that the browser needs.
+
+## Cross-hosted
+This repository is hosted both on [GitHub](https://github.com/TheNamlessGuy/browser-theme) and [Codeberg](https://codeberg.org/TheNamlessGuy/browser-theme).
